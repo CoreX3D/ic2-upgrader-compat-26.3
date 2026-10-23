@@ -3,6 +3,7 @@ package dev.core.ic2upgrader.mixin;
 import dev.core.ic2upgrader.Ic2Pricing;
 import dev.core.ic2upgrader.Ic2StackRules;
 import dev.core.ic2upgrader.BookTargets;
+import dev.core.ic2upgrader.EquipmentEnchantments;
 import java.util.Map;
 import net.execheinz.upgrader.UpgraderConfig;
 import net.execheinz.upgrader.value.ItemValues;
@@ -44,6 +45,7 @@ public abstract class ItemValuesMixin {
     @Inject(method = "stackValue", at = @At("RETURN"), cancellable = true, remap = false)
     private static void ic2Upgrader$wear(Level level, ItemStack stack, CallbackInfoReturnable<Double> callback) {
         double value = Ic2StackRules.adjustStackValue(level, stack, callback.getReturnValueD());
-        callback.setReturnValue(BookTargets.stackValue(level, stack, value));
+        value = BookTargets.stackValue(level, stack, value);
+        callback.setReturnValue(EquipmentEnchantments.stackValue(level, stack, value));
     }
 }

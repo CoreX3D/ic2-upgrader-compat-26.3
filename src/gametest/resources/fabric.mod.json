@@ -9,7 +9,8 @@
     "fabric-gametest": [
       "dev.core.ic2upgrader.gametest.UpgraderCompatGameTests",
       "dev.core.ic2upgrader.gametest.UpgradeAnnouncementGameTests",
-      "dev.core.ic2upgrader.gametest.BookUpgradeGameTests"
+      "dev.core.ic2upgrader.gametest.BookUpgradeGameTests",
+      "dev.core.ic2upgrader.gametest.EquipmentEnchantmentGameTests"
     ]
   },
   "depends": { "ic2_upgrader_compat": "*", "fabric-gametest-api-v1": "*" }

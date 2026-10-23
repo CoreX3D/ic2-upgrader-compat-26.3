@@ -175,6 +175,7 @@ public final class UpgraderCompatClientGameTest implements FabricClientGameTest 
       validateCategories(context, server, connection, evidence);
       BookUpgradeClientChecks.validate(context, server, connection, evidence);
       UpgradeSpinClientChecks.validate(context, server, connection, evidence);
+      EquipmentEnchantmentClientChecks.validate(context, server, connection, evidence);
 
       selectTarget(context, copperPlate, "Медная пластина");
       // The native + control is at the right edge of the target amount selector.
