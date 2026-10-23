@@ -1,0 +1,10 @@
+{
+  "chat.ic2_upgrader_compat.badge": "✦ [Upgrade]",
+  "chat.ic2_upgrader_compat.win": "%1$s %2$s won %3$s\n  Chance: %4$s  •  Spent: %5$s",
+  "gui.ic2_upgrader_compat.category.all": "All items",
+  "gui.ic2_upgrader_compat.category.other": "Other",
+  "gui.ic2_upgrader_compat.categories.previous": "Previous categories",
+  "gui.ic2_upgrader_compat.categories.next": "Next categories",
+  "gui.ic2_upgrader_compat.categories.page": "%s / %s",
+  "gui.ic2_upgrader_compat.categories.empty": "Nothing found in this category"
+}

@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.core.ic2upgrader.gametest.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["UpgradeSpinSoundManagerMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

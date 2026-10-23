@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "ic2-upgrader-compat-test",
+  "version": "${version}",
+  "name": "IC2 Upgrader compatibility tests",
+  "environment": "*",
+  "mixins": ["ic2-upgrader-spin-tests.mixins.json"],
+  "entrypoints": {
+    "fabric-gametest": [
+      "dev.core.ic2upgrader.gametest.UpgraderCompatGameTests",
+      "dev.core.ic2upgrader.gametest.UpgradeAnnouncementGameTests",
+      "dev.core.ic2upgrader.gametest.BookUpgradeGameTests"
+    ]
+  },
+  "depends": { "ic2_upgrader_compat": "*", "fabric-gametest-api-v1": "*" }
+}

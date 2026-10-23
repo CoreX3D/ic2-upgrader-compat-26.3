@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "ic2_upgrader_compat",
+  "version": "${version}",
+  "name": "IC2 — Upgrader Compatibility",
+  "description": "IndustrialCraft 2 prices, creative-style categories, enchanted-book targets and win announcements for Upgrader on Minecraft 26.3.",
+  "authors": ["CoreX3D"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.core.ic2upgrader.UpgraderIc2Compat"],
+    "client": ["dev.core.ic2upgrader.client.BookTargetClient", "dev.core.ic2upgrader.client.UpgradeSpinClient"]
+  },
+  "mixins": ["ic2-upgrader-compat.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": ">=0.163.0",
+    "ic2": "0.1.0-alpha.13",
+    "upgrader": "1.2.1"
+  }
+}

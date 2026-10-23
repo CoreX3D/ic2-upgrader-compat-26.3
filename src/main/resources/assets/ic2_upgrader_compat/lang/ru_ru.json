@@ -1,0 +1,10 @@
+{
+  "chat.ic2_upgrader_compat.badge": "✦ [Апгрейд]",
+  "chat.ic2_upgrader_compat.win": "%1$s %2$s выиграл %3$s\n  Шанс: %4$s  •  Потрачено: %5$s",
+  "gui.ic2_upgrader_compat.category.all": "Все предметы",
+  "gui.ic2_upgrader_compat.category.other": "Другое",
+  "gui.ic2_upgrader_compat.categories.previous": "Предыдущие категории",
+  "gui.ic2_upgrader_compat.categories.next": "Следующие категории",
+  "gui.ic2_upgrader_compat.categories.page": "%s / %s",
+  "gui.ic2_upgrader_compat.categories.empty": "В этой категории ничего не найдено"
+}

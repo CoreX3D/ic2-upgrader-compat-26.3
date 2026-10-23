@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "package": "dev.core.ic2upgrader.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["ItemValuesMixin", "UpgraderMenuMixin", "UpgraderSlotAlignmentMixin", "UpgradeSpinMenuMixin"],
+  "client": ["UpgraderScreenMixin", "BookTargetScreenMixin", "TargetStackValueScreenMixin", "UpgradeSpinScreenMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
